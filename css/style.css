@@ -1,0 +1,551 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    width: 1200px;
+    border: 2px solid #ccc;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    border-bottom: 5px solid #26c1ec;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li a{
+    text-decoration: none;
+    background-color: #008bf5;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10PX;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Contenido nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Contenido nav ul{
+    margin-top: 30px;
+}
+.Contenido nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.Contenido nav ul li a{
+    text-decoration: none;
+    background-color: #008bf5;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10PX;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner{
+    height: 650px;
+    background: url("../Imagenes/Albert\ Einstein.avif") 0 -48px;
+    background-size: cover;
+}
+.banner h2{
+    text-align: center;
+    font-family: Cinzel, serif;
+  font-size: 46px; 
+}
+
+.banner1{
+    height: 500px;
+    background: url("../images/Fuente\ de\ soda.jpg") 0 -48px;
+    background-size: cover;
+}
+
+.banner2{
+    height: 500px;
+    background: url("../images/Portada2.jpeg") 0 -48px;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner3{
+    height: 450px;
+    background: url("../Imagenes/Banner3.jpeg") 0 -48px;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner7{
+    height: 450px;
+    background: url("../Imagenes/Albert\ Einstein.avif") 0 -48px;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner7{
+    height: 450px;
+    background: url("../Imagenes/Matematicas.avif") 0 -48px;
+    background-size: cover;
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.banner h2{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    padding: 90px 0 0 40px;
+    text-shadow: 5px 5px 5px #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner3 h2{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    padding: 90px 0 0 40px;
+    text-shadow: 5px 5px 5px #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner7 h2{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    padding: 90px 0 0 40px;
+    text-shadow: 5px 5px 5px #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.suscripcion{
+    padding: 10px;
+    background-color: #008bf5;
+    color: rgb(255, 255, 255);
+    font-size: 15px; 
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.suscripcion p{
+    float: left;
+    padding-top: 5px;
+    font-size: 15px; 
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+.suscripcion .formulario{
+    float: right;
+  font-size: 15px; 
+  font-family: 'Montserrat', sans-serif;
+  }
+  
+.suscripcion .formulario input, button{
+    padding: 5px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+  font-size: 15px; 
+  }
+  
+.formulario button:hover{
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+  font-size: 15px; 
+  }
+  
+.clear{
+    clear: both;
+    color: rgb(255, 255, 255);
+  font-size: 15px; 
+ }
+
+ .Formulario{
+    width: 400px;
+    background-color: #000;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    box-shadow: 0 50px 50px rgb(0,76,78,5);
+}
+
+.Formulario h4{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.controls{
+    width: 100%;
+    background: #073f92;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #073f92;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.Formulario p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Formulario a{
+    color: white;
+    text-decoration: none;
+}
+
+.Formulario a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.Formulario .botons{
+    width: 350px;
+    background: #073f92;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clear{
+    clear: both;
+    color: rgb(255, 255, 255);
+  }
+
+.contenido{
+    background-color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.card img{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.card{
+    width: 25%;
+    float: left;
+    margin: 8px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+}
+
+h5{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Nero{
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Asta{
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.column{
+    flex: 25%;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 800px){
+    .column{
+        flex: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    .column{
+        flex: 100%;
+    }
+}
+
+.publicidad3 img{
+    width: 50%;
+    height: 3000%;
+}
+
+.Publicidad3{
+    display: flex;
+    width: 90%;
+    height: 3500%;
+    margin-top: 1%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Titina3{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Titina3 img{
+    width: 15%;
+    height: 1000%;
+}
+
+.Mega{
+    display: flex;;
+    width: 100%;
+    max-width: 1200px;
+    height: 550px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Mega .nexo{
+    width: 325px;
+    height: 480px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    transition: all 0.25s;
+    box-shadow: 0 5px 5px rgb(0, 0, 0,4);
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Mega .nexo img{
+    width: 300px;
+    height: 225px;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nexo a{
+    text-decoration: none;
+    border: 5px solid #ccc;
+    background-color: #ccc;
+}
+
+.nexo{
+    width: 330px;
+    height: 480px;
+    border-radius: 5px;
+    margin: 10px;
+    float: left;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    background-color: salmon;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    position: absolute;
+    left: 48%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+input{
+    outline: none;
+    box-sizing: border-box;
+    height: 60px;
+    width: 0;
+    padding: 0 20px;
+    color: #000;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid #28d4f7;
+    transition: all .7s ease;
+}
+
+::placeholder{
+    color: #ccc;
+}
+
+.btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    background: #0ce7eb;
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: 5s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn i{
+    font-size: 25px;
+    color: white;
+    line-height: 80px;
+    transition: all .7 ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container:hover input{
+    width: 350px;
+}
+
+.container:hover i{
+    transform: rotate(-360deg);
+}
+
+.btn:hover{
+    background: #06d8e3;
+}
+
+.iconos{
+    display: flex;
+    float: right;
+    width: 23%;
+    height: 23%;
+    justify-content: start;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.iconos img{
+    display: flex;
+    width: 23%;
+    height: 23%;
+   justify-content: start;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.Jack{
+    display: flex;;
+    width: 100%;
+    max-width: 1200px;
+    height: 1100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Jack .Hercules{
+    width: 325px;
+    height: 525px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    transition: all 0.25s;
+    box-shadow: 0 5px 5px rgb(0, 0, 0,4);
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Jack .Hercules img{
+    width: 300px;
+    height: 225px;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Hercules{
+    width: 330px;
+    height: 480px;
+    border-radius: 5px;
+    margin: 20px;
+    float: left;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h6{
+    color: rgb(255, 255, 255);
+    background-color: #073f92;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
+
+footer{
+    background-color: #008bf5;
+    color: rgb(255, 255, 255);
+    padding: 101px;
+    font-size: 20px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
